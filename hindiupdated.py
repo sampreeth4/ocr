@@ -10,8 +10,8 @@ import pytesseract
 import re
 
 # Set the path to the tesseract executable (for Windows users)
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Adjust this path as needed
-
+# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Adjust this path as needed
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 # Title of the web app
 st.title("Hindi and English OCR Web Application")
 
